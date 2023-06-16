@@ -1,9 +1,11 @@
 import './assets/styles/App.css';
+import tables from './assets/data/tables.js';
+import Table from './components/Table.js';
 
 function App() {
   return (
     <div className="App">
-      <h1>CodeHub</h1>
+        <Table data={tables}/>
     </div>
   );
 }

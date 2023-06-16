@@ -21,6 +21,6 @@
     "comma-dangle": "off",
     "semi": ["error", "always"],
     "no-unused-vars": [1, {"vars": "local", "args": "none"}]
-  },
-  "presets": ["@babel/preset-react"]
+  }
+  // "presets": ["@babel/preset-react"]
 }
